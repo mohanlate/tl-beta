@@ -15,3 +15,10 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/catalog/:id', {templateUrl: 'partials/learningResource.html', controller: 'ctrlLearningResource'});
   $routeProvider.otherwise({redirectTo: '/'});
 }]);
+
+
+<script>
+  $(function () {
+    $('#myTab a:first').tab('show')
+  })
+</script>
